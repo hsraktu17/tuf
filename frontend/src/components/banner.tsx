@@ -28,7 +28,7 @@ const TimerBanner = () => {
 
   const showBanner = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/api/", {
+      const response = await axios.post("https://tuf-v7wp.onrender.com/api/", {
         BannerText: bannerText,
         Link: bannerLink,
         Timer: inputTime,
